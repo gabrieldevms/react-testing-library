@@ -1,0 +1,26 @@
+.not-found-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.not-found-container p {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+
+.not-found-container img {
+  width: 100%;
+  max-width: 435px;
+}
+
+
+@media all and ( max-width : 680px ) {
+
+  .not-found-container {
+    flex-direction: column;
+  }
+}

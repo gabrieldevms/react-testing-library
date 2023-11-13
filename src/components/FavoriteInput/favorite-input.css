@@ -1,0 +1,13 @@
+.favorite-form {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.favorite-form label {
+  cursor: pointer;
+}
+
+.favorite-form input {
+  margin-right: 5px;
+  cursor: pointer;
+}

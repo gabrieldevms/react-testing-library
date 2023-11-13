@@ -1,0 +1,8 @@
+src/*.ts
+src/*.tsx
+src/*.css
+src/components/*
+src/pages/*
+src/services/*
+coverage/*
+reports

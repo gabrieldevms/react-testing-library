@@ -1,0 +1,50 @@
+.pokedex-buttons-panel {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 10px;
+  width: 100%;
+  max-width: 350px;
+  gap: 2px;
+  background-color: #003B5A;
+  padding: 2px;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.filter-button {
+  border: none;
+  background-color: #009EFE;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.filter-button:hover {
+  background-color: #00b4ff;
+}
+
+.filter-button:first-child {
+  border-radius: 5px 0 0 0;
+}
+
+.filter-button:nth-child(2) {
+  border-radius: 0 5px 0 0;
+}
+
+.filter-button:last-child {
+  border-radius: 0 0 5px 0;
+}
+
+.filter-button:nth-last-child(2) {
+  border-radius: 0 0 0 5px;
+}
+
+@media all and (max-width: 855px) {
+
+  .pokedex-buttons-panel {
+    max-width: 100%;
+  }
+
+  .filter-button {
+    height: 50px;
+  }
+}

@@ -1,0 +1,55 @@
+.summary-container {
+  width: 450px;
+  margin-top: 10px;
+}
+
+.summary-container p {
+  margin-top: 10px;
+}
+
+.locations-container {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.pokemon-habitat {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  justify-content: space-between;
+}
+
+.card-map {
+  width: 32%;
+  margin-top: 10px;
+}
+
+.card-map img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media all and (max-width: 960px) {
+
+  .summary-container {
+    margin-top: 50px;
+  }
+
+  .summary-container p {
+    text-align: justify;
+  }
+}
+
+
+@media all and (max-width: 550px) {
+
+  .pokemon-habitat {
+    flex-direction: column;
+  }
+
+  .card-map {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+}

@@ -1,0 +1,17 @@
+.favorite-pokemon > h2 {
+  margin-bottom: 1em;
+}
+
+
+.favorite-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media all and ( max-width : 940px ) {
+
+  .favorite-container {
+    justify-content: center;
+  }
+}

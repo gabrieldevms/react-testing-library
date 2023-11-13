@@ -1,0 +1,31 @@
+.pokemon-details {
+  margin: auto;
+  width: 100%;
+}
+
+.pokemon-details > h2 {
+  margin-bottom: 1em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card > div {
+  width: 450px;
+}
+
+.details-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+@media all and ( max-width : 490px ) {
+
+  .card , .card > div {
+    width: 100%;
+  }
+}
