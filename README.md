@@ -1,6 +1,6 @@
 # React Testing Library
 
-Testes para uma aplicação React já está criada e configurada utilizando Jest e a biblioteca React Testing Library.
+Testes para uma aplicação React já criada e configurada utilizando Jest e a biblioteca React Testing Library.
 
 A aplicação contém uma implementação completa de todos os requisitos da Pokédex. Para cada requisito listado, foi escrito um teste que garantam sua corretude. 
 
